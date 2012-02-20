@@ -14,4 +14,4 @@ Bundle-NativeCode: lib/win32-x86/cbf_wrap.dll ; lib/win32-x86/libgnurx-0.dll ;
  osname=Linux; processor=x86,
  lib/linux-x86_64/libcbf_wrap.so;
  osname=Linux; processor=x86-64
-Bundle-Vendor: Diamond Light Source Ltd.
+Bundle-Vendor: Diamond Light Source
