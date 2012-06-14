@@ -9,7 +9,9 @@ Bundle-ClassPath: jars/cbflib-0.9.0.jar,
 Export-Package: org.iucr.cbflib,
  uk.ac.diamond.CBFlib
 Bundle-NativeCode: lib/win32-x86/cbf_wrap.dll ; lib/win32-x86/libgnurx-0.dll ;
- osname=Win32; processor=x86; processor=x86-64,
+ osname=Win32; processor=x86,
+ lib/win32-x86_64/cbf_wrap.dll ; lib/win32-x86_64/libgnurx-0.dll ;
+ osname=Win32; processor=x86-64,
  lib/linux-x86/libcbf_wrap.so;
  osname=Linux; processor=x86,
  lib/linux-x86_64/libcbf_wrap.so;
