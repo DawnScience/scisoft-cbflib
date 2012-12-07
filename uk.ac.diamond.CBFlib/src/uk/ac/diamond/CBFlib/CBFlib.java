@@ -18,12 +18,8 @@ package uk.ac.diamond.CBFlib;
 
 /**
  * Contains code for loading the CBFlib native library.
- * 
- * (NOTE The META-INF declares the same native lib for windows 32 and windows 64
- * This has been tested on windows 64 10/11/2011 and appears to work.)
  */
 public class CBFlib {
-	
 	/**
 	 * Loads the CBFlib native library.
 	 * 
