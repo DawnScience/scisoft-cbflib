@@ -3,7 +3,7 @@ Bundle-ManifestVersion: 2
 Bundle-Name: uk.ac.diamond.CBFlib
 Bundle-SymbolicName: uk.ac.diamond.CBFlib
 Bundle-Version: 1.2.0.qualifier
-Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Bundle-ClassPath: jars/cbflib-0.9.0.jar,
  .
 Export-Package: org.iucr.cbflib,
@@ -20,3 +20,4 @@ Bundle-NativeCode: lib/win32-x86/cbf_wrap.dll; lib/win32-x86/libgnurx-0.dll;
  osname=macosx; osname=Mac OS X;  osname=MacOS; processor=x86_64,
  *
 Bundle-Vendor: Diamond Light Source
+Automatic-Module-Name: uk.ac.diamond.CBFlib
