@@ -15,5 +15,6 @@
 
 	<modules>
 		<module>uk.ac.diamond.CBFlib</module>
+		<module>uk.ac.diamond.CBFlib.feature</module>
 	</modules>
 </project>
