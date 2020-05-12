@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
       id="uk.ac.diamond.CBFlib.feature"
-      label="CBFlib Java bindings"
+      label="CBFlib Java Bindings Feature"
       version="1.2.0.qualifier">
 
    <description url="https://gerrit.diamond.ac.uk/plugins/gitiles/scisoft/scisoft-cbflib">
