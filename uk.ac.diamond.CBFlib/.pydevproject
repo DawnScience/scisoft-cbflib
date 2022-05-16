@@ -6,6 +6,6 @@
 <pydev_property name="org.python.pydev.PYTHON_PROJECT_VERSION">jython 2.7</pydev_property>
 <pydev_pathproperty name="org.python.pydev.PROJECT_SOURCE_PATH">
 <path>/${PROJECT_DIR_NAME}/bin</path>
-<path>/${PROJECT_DIR_NAME}/jars/cbflib-0.9.0.jar</path>
+<path>/${PROJECT_DIR_NAME}/jars/cbflib-0.9.7.jar</path>
 </pydev_pathproperty>
 </pydev_project>

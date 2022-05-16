@@ -27,11 +27,7 @@ public class CBFlib {
 	 * OSGi environment, this means that this class and the CBFlib JAR must be in the same bundle.
 	 */
 	public static void loadLibrary() {
-		try {
-			System.loadLibrary("libgnurx-0");
-		} catch (UnsatisfiedLinkError e) {
-			// do nothing as only in Windows (so much for write once...)
-		}
+		System.loadLibrary("cbf");
 		System.loadLibrary("cbf_wrap");
 	}
 
