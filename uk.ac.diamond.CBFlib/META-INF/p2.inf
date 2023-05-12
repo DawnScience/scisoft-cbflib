@@ -1,6 +1,0 @@
-instructions.install = \
-    remove(path:${artifact.location}/lib/macosx-aarch64);\
-    ln(targetDir:${artifact.location}/lib,linkTarget:macosx-x86_64,linkName:macosx-aarch64);
-instructions.install.import = \
-    org.eclipse.equinox.p2.touchpoint.natives.ln,\
-    org.eclipse.equinox.p2.touchpoint.natives.remove
