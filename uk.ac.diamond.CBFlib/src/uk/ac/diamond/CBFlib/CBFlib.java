@@ -16,10 +16,15 @@
 
 package uk.ac.diamond.CBFlib;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 /**
  * Contains code for loading the CBFlib native library.
  */
 public class CBFlib {
+	private static final Logger logger = LoggerFactory.getLogger(CBFlib.class);
+
 	/**
 	 * Loads the CBFlib native library.
 	 * 
@@ -27,8 +32,13 @@ public class CBFlib {
 	 * OSGi environment, this means that this class and the CBFlib JAR must be in the same bundle.
 	 */
 	public static void loadLibrary() {
-		System.loadLibrary("cbf");
-		System.loadLibrary("cbf_wrap");
+		try {
+			System.loadLibrary("cbf");
+			System.loadLibrary("cbf_wrap");
+		} catch (Throwable t) {
+			logger.error("Could not load CBFlib dynamic libraries", t);
+			throw t;
+		}
 	}
 
 }
