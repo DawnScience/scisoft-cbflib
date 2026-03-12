@@ -9,7 +9,7 @@
 
 		<path>/${PROJECT_DIR_NAME}/bin</path>
 
-		<path>/${PROJECT_DIR_NAME}/jars/cbflib-0.9.7.jar</path>
+		<path>/${PROJECT_DIR_NAME}/jars/cbflib-0.9.8.jar</path>
 
 	</pydev_pathproperty>
 
